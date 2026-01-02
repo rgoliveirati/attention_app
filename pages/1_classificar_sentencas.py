@@ -4,11 +4,6 @@ from conllu import parse_incr
 import io
 
 st.set_page_config(
-    page_title="Classificar Sentenças",
-    layout="wide"
-)
-
-st.set_page_config(
     page_title="Analisador de Padrões Gramaticais — Universal Dependencies",
     page_icon="📚",
     layout="wide",
