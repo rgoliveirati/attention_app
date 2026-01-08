@@ -1,4 +1,6 @@
-![Visão geral da aplicação](1.png)
+<p align="center">
+  <img src="1.png" width="600">
+</p>
 
 # Attention Analysis Hub
 
