@@ -150,3 +150,25 @@ Este repositório integra experimentos voltados à **interpretabilidade de mecan
 * análise de padrões gramaticais segundo Universal Dependencies,
 * visualização estruturada de pesos atencionais,
 * aplicação ao português brasileiro.
+
+---
+
+## How to Cite
+
+If you use this repository in academic work, please cite it as:
+
+@inproceedings{stil,
+ author = {Ricardo Oliveira and Daniela Claro and Rerisson Cavalcante},
+ title = { Syntactic Analysis in Transformers through Attention Heads},
+ booktitle = {Anais do XVI Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana},
+ location = {Fortaleza/CE},
+ year = {2025},
+ keywords = {},
+ issn = {0000-0000},
+ pages = {295--306},
+ publisher = {SBC},
+ address = {Porto Alegre, RS, Brasil},
+ doi = {10.5753/stil.2025.37833},
+ url = {https://sol.sbc.org.br/index.php/stil/article/view/37833}
+}
+
