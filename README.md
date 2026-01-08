@@ -10,6 +10,12 @@ O projeto consolida diferentes experimentos em um único ambiente interativo, se
 
 ---
 
+## Contexto Acadêmico
+
+Este repositório integra a pesquisa desenvolvida no âmbito do mestrado em Ciência da Computação do autor, com foco na análise e interpretabilidade de mecanismos de atenção em modelos Transformer aplicados ao português brasileiro.
+
+---
+
 ## Estrutura do Repositório
 
 ```
