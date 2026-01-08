@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="1.png" width="600">
+  <img src="1.png" width="300">
 </p>
 
 # Attention Analysis Hub
