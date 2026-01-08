@@ -118,6 +118,27 @@ Após o download, copie o arquivo `pt_bosque-ud-train.conllu` para a pasta `data
 
 ---
 
+## Recomendação de Uso de GPU
+
+Embora a aplicação possa ser executada em ambiente exclusivamente **CPU**, recomenda-se fortemente o uso de **GPU** para a realização dos experimentos, em especial nos módulos que envolvem:
+
+* carregamento de modelos Transformer (ex.: BERT, RoBERTa);
+* extração e análise de pesos de atenção;
+* processamento de grandes conjuntos de sentenças anotadas;
+* geração de visualizações atencionais (heatmaps, treemaps).
+
+O uso de GPU reduz significativamente o tempo de inicialização dos modelos e o custo computacional das inferências, proporcionando uma experiência interativa mais fluida.
+
+Em ambientes sem GPU, o sistema permanece funcional; entretanto:
+* o tempo de resposta pode ser substancialmente maior;
+* alguns experimentos podem demandar redução do volume de dados;
+* a análise exploratória extensiva pode tornar-se impraticável.
+
+Para reprodução completa dos experimentos e análises em escala, o uso de GPU é considerado **boa prática**.
+
+---
+
+
 ## Execução Local
 
 ```bash
