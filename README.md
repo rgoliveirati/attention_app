@@ -1,3 +1,5 @@
+![Visão geral da aplicação](1.png)
+
 # Attention Analysis Hub
 
 Este repositório disponibiliza uma aplicação **Streamlit multipágina** para análise e visualização de **mecanismos de atenção em modelos Transformer** aplicados ao **português brasileiro**, com foco em inspeção atencional, padrões sintáticos e regras linguísticas.
