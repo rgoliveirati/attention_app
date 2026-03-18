@@ -197,31 +197,31 @@ Este sistema adota uma perspectiva inspirada em **Lucien Tesnière** e no esquem
 
 ### Regras analisadas
 
-**Verbo ditransitivo**  
+**Verbo ditransitivo** *(verbo bitransitivo)*
 Identifica um verbo que governa simultaneamente dois dependentes complementares, correspondendo a uma estrutura de valência mais ampla.
 
-**Verbo monotransitivo direto**  
+**Verbo monotransitivo direto** *(verbo transitivo direto)*
 Identifica um verbo ligado diretamente a um único dependente que completa seu sentido.
 
-**Complemento indireto do verbo**  
+**Complemento indireto do verbo** *(verbo transitivo indireto / objeto indireto)*
 Identifica um dependente indireto subordinado a um verbo governante.
 
-**Complemento oblíquo do verbo**  
+**Complemento oblíquo do verbo** *(complemento verbal preposicionado / adjunto adverbial, dependendo do caso)*
 Identifica um dependente oblíquo ligado a um verbo. Em UD, essa categoria é mais ampla do que o “objeto indireto” da gramática tradicional.
 
-**Dependente oracional**  
+**Dependente oracional** *(oração subordinada)*
 Identifica uma oração inteira que depende estruturalmente de outro núcleo da sentença.
 
-**Construção passiva**  
+**Construção passiva** *(voz passiva)*
 Identifica uma reorganização das dependências em torno de um predicado passivo, marcada por relações como `aux:pass` e `nsubj:pass`.
 
-**Estrutura copulativa**  
+**Estrutura copulativa** *(verbo de ligação com predicativo do sujeito)*
 Identifica construções em que a cópula depende de um núcleo predicativo semanticamente mais informativo, como em “está ameaçada”.
 
-**Clítico pronominal**  
+**Clítico pronominal** *(pronome reflexivo)*
 Identifica pronomes clíticos, como “se”, “me” e “te”, ligados a um núcleo verbal.
 
-**Modificador adverbial**  
+**Modificador adverbial** *(adjunto adverbial)*
 Identifica dependentes modificadores que acrescentam circunstância, intensidade ou modo a um governante.
 
 ### Observação final
