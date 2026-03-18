@@ -189,6 +189,46 @@ Use quando quiser enxergar padrões globais de atenção no modelo.
 """
     )
 
+with st.expander("Sobre as regras"):
+    st.markdown("""
+### Visão geral
+
+Este sistema adota uma perspectiva inspirada em **Lucien Tesnière** e no esquema **Universal Dependencies (UD)**. Em vez de tratar a frase principalmente como combinação de sintagmas, a análise é feita como uma **rede de relações entre governantes e dependentes**. Assim, cada regra procura reconhecer um tipo recorrente de vínculo sintático entre palavras.
+
+### Regras analisadas
+
+**Verbo ditransitivo**  
+Identifica um verbo que governa simultaneamente dois dependentes complementares, correspondendo a uma estrutura de valência mais ampla.
+
+**Verbo monotransitivo direto**  
+Identifica um verbo ligado diretamente a um único dependente que completa seu sentido.
+
+**Complemento indireto do verbo**  
+Identifica um dependente indireto subordinado a um verbo governante.
+
+**Complemento oblíquo do verbo**  
+Identifica um dependente oblíquo ligado a um verbo. Em UD, essa categoria é mais ampla do que o “objeto indireto” da gramática tradicional.
+
+**Dependente oracional**  
+Identifica uma oração inteira que depende estruturalmente de outro núcleo da sentença.
+
+**Construção passiva**  
+Identifica uma reorganização das dependências em torno de um predicado passivo, marcada por relações como `aux:pass` e `nsubj:pass`.
+
+**Estrutura copulativa**  
+Identifica construções em que a cópula depende de um núcleo predicativo semanticamente mais informativo, como em “está ameaçada”.
+
+**Clítico pronominal**  
+Identifica pronomes clíticos, como “se”, “me” e “te”, ligados a um núcleo verbal.
+
+**Modificador adverbial**  
+Identifica dependentes modificadores que acrescentam circunstância, intensidade ou modo a um governante.
+
+### Observação final
+
+As regras do sistema não devem ser entendidas apenas como rótulos tradicionais, mas como **padrões de dependência sintática** entre palavras. Isso torna a análise mais coerente com Tesnière e com a lógica estrutural de Universal Dependencies.
+    """)
+
 st.divider()
 
 st.subheader("Qual página devo usar?")
