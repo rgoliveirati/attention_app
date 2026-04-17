@@ -150,7 +150,7 @@ MODULES = [
     },
     {
         "file": "pages/7_heat_map.py",
-        "title": "Heat Map",
+        "title": "Heatmap",
         "pathname": "heat_map",
         "category": "Visualização",
         "description": "Gera mapa de calor por camada e cabeça para identificar padrões globais de atenção."

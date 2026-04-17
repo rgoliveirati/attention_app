@@ -21,7 +21,7 @@ Para a maioria dos casos, o uso mais natural do sistema é este:
 2. **Análises de Atenção (Plots e Regras)**  
    Quando você já tem sentenças organizadas em CSV e deseja investigar a atenção do modelo.
 
-3. **Treemap e Heat Map**  
+3. **Treemap e Heatmap**  
    Quando você quer visualizar resultados agregados de análises já realizadas.
 """
 )
@@ -163,7 +163,7 @@ Use para visualizar distribuição e hierarquia dos dados de forma resumida.
 """
     )
 
-with st.expander("7. Heat Map"):
+with st.expander("7. Heatmap"):
     st.markdown(
         """
 **Para que serve**  
@@ -259,7 +259,7 @@ Use **Regras**.
 Use **Treemap**.
 
 **Se você quer visão global por camada e cabeça**  
-Use **Heat Map**.
+Use **Heatmap**.
 """
     )
 
