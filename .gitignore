@@ -4,3 +4,11 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
+
+# arquivos grandes
+analise_sentencas_todos_padroes.csv
+demo/analise_sentencas_todos_padroes_pagina_Treemap_Interativo_e_HeatMap.csv
+
+*.csv
+*.conllu
+*.odt
